@@ -186,7 +186,7 @@ namespace t
             //Each closed generic type has its own copy of static fields.
             #endregion
             #region Q19
-
+            //You inherit from a generic class by specifying the generic type or passing the type parameter to the derived class.
             #endregion
             #region Q20
 
