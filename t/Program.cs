@@ -173,28 +173,29 @@ namespace t
             #region Q15
             //Covariance allows a generic type to use a more derived type instead of a base type.
             //The out keyword enables covariance and allows the type parameter to be used only for output(return values).
+            #endregion
+            #region Q16
+            //Contravariance allows using a base type instead of a derived type in generic interfaces or delegates.
+           // The in keyword enables contravariance and allows the type parameter to be used only as input parameters
         #endregion
-        #region Q16
+            #region Q17
 
-        #endregion
-        #region Q17
+            #endregion
+            #region Q18
 
-        #endregion
-        #region Q18
+            #endregion
+            #region Q19
 
-        #endregion
-        #region Q19
+            #endregion
+            #region Q20
 
-        #endregion
-        #region Q20
+            #endregion
+            #region Q21
 
-        #endregion
-        #region Q21
+            #endregion
+            #region Q22
 
-        #endregion
-        #region Q22
-
-        #endregion
+            #endregion
     }
     }
 }
