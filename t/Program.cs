@@ -15,23 +15,35 @@ namespace t
             //Generics are used to achieve code reusability, type safety, and better performance by avoiding casting and boxing/unboxing.
             #endregion
             #region Q2
-        //    public class Container<T>
-        //{
-        //    private T _item;
+            //    public class Container<T>
+            //{
+            //    private T _item;
 
-        //    public void Add(T item)
-        //    {
-        //        _item = item;
-        //    }
+            //    public void Add(T item)
+            //    {
+            //        _item = item;
+            //    }
 
-        //    public T Get()
-        //    {
-        //        return _item;
-        //    }
-        //}
-        #endregion
-        #region Q3
+            //    public T Get()
+            //    {
+            //        return _item;
+            //    }
+            //}
+            #endregion
+            #region Q3
+            //They are generics that take multiple type parameters.
 
+            //    public class pair<TKey, Tvalue>
+            //{
+            //    public TKey Key { get; set; }
+            //    public Tvalue Value { get; set; }
+            //    public pair(TKey _key, Tvalue _value)
+            //    {
+            //        Key = _key;
+            //        Value = _value;
+            //    }
+
+            //}
         #endregion
         #region Q4
 

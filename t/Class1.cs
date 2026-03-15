@@ -7,18 +7,15 @@ using System.Threading.Tasks;
 
 namespace t
 {
-    public class Container<T>
+    public class pair<TKey,Tvalue>
     {
-        private T _item;
-
-        public void Add(T item)
+        public TKey Key { get; set; }
+        public Tvalue Value { get; set; }
+        public pair(TKey _key, Tvalue _value)
         {
-            _item = item;
+            Key = _key;
+            Value = _value;
         }
 
-        public T Get()
-        {
-            return _item;
-        }
     }
 }
