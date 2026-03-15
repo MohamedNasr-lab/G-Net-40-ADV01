@@ -9,12 +9,12 @@ namespace t
 {
     public class pair<TKey,Tvalue>
     {
-        public TKey Key { get; set; }
-        public Tvalue Value { get; set; }
-        public pair(TKey _key, Tvalue _value)
+        public static void swap<T>(ref T a, ref T b)
         {
-            Key = _key;
-            Value = _value;
+            T temp = a;
+            a = b;
+            b = temp;
+
         }
 
     }

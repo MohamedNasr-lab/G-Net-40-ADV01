@@ -44,64 +44,72 @@ namespace t
             //    }
 
             //}
-        #endregion
-        #region Q4
+            #endregion
+            #region Q4
+            //A generic method is a method that uses type parameters
+            //so it can work with different data types without rewriting the method.
+            //public static void swap<T>(ref T a, ref T b)
+            //{
+            //    T temp = a;
+            //    a = b;
+            //    b = temp;
 
-        #endregion
-        #region Q5
+            //}
+            #endregion
+            #region Q5
 
-        #endregion
-        #region Q6
+            #endregion
+            #region Q6
 
-        #endregion
-        #region Q7
+            #endregion
+            #region Q7
 
-        #endregion
-        #region Q8
+            #endregion
+            #region Q8
 
-        #endregion
-        #region Q9
+            #endregion
+            #region Q9
 
-        #endregion
-        #region Q10
+            #endregion
+            #region Q10
 
-        #endregion
-        #region Q11
+            #endregion
+            #region Q11
 
-        #endregion
-        #region Q12
+            #endregion
+            #region Q12
 
-        #endregion
-        #region Q13
+            #endregion
+            #region Q13
 
-        #endregion
-        #region Q14
+            #endregion
+            #region Q14
 
-        #endregion
-        #region Q15
+            #endregion
+            #region Q15
 
-        #endregion
-        #region Q16
+            #endregion
+            #region Q16
 
-        #endregion
-        #region Q17
+            #endregion
+            #region Q17
 
-        #endregion
-        #region Q18
+            #endregion
+            #region Q18
 
-        #endregion
-        #region Q19
+            #endregion
+            #region Q19
 
-        #endregion
-        #region Q20
+            #endregion
+            #region Q20
 
-        #endregion
-        #region Q21
+            #endregion
+            #region Q21
 
-        #endregion
-        #region Q22
+            #endregion
+            #region Q22
 
-        #endregion
-    }
+            #endregion
+        }
     }
 }
