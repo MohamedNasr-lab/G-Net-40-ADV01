@@ -150,28 +150,29 @@ namespace t
             //It returns null for reference types and zero - equivalent values for value types.
             #endregion
             #region Q14
-        //public class SafeList<T>
-        //{
-        //    private List<T> _items = new List<T>();
+            //public class SafeList<T>
+            //{
+            //    private List<T> _items = new List<T>();
 
-        //    public void Add(T item)
-        //    {
-        //        _items.Add(item);
-        //    }
+            //    public void Add(T item)
+            //    {
+            //        _items.Add(item);
+            //    }
 
-        //    public T Get(int index)
-        //    {
-        //        if (index >= 0 && index < _items.Count)
-        //        {
-        //            return _items[index];
-        //        }
+            //    public T Get(int index)
+            //    {
+            //        if (index >= 0 && index < _items.Count)
+            //        {
+            //            return _items[index];
+            //        }
 
-        //        return default(T);
-        //    }
-        //}
-        #endregion
-        #region Q15
-
+            //        return default(T);
+            //    }
+            //}
+            #endregion
+            #region Q15
+            //Covariance allows a generic type to use a more derived type instead of a base type.
+            //The out keyword enables covariance and allows the type parameter to be used only for output(return values).
         #endregion
         #region Q16
 
