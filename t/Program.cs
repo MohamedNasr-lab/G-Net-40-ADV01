@@ -127,16 +127,23 @@ namespace t
             #region Q11
             //We specify a base class,
             //so only that class or its child classes (derived classes) can be used as the generic type.
-        //    public class AnimalHandler<T> where T : Animal
+            //    public class AnimalHandler<T> where T : Animal
+            //{
+            //    public void Feed(T animal)
+            //    {
+            //        animal.Eat();
+            //    }
+            //}
+            #endregion
+            #region Q12
+            //You apply multiple constraints by writing them after where T : and separating them with commas ,.
+        //    public class Example<T> where T : class, IDisposable, new()
         //{
-        //    public void Feed(T animal)
+        //    public T Create()
         //    {
-        //        animal.Eat();
+        //        return new T();
         //    }
         //}
-        #endregion
-        #region Q12
-
         #endregion
         #region Q13
 
