@@ -78,18 +78,27 @@ namespace t
             #endregion
             #region Q7
             //The struct constraint restricts a generic type parameter so it can only accept value types(structs).
-        //    public class ValueContainer<T> where T : struct
-        //{
-        //    public T Value { get; set; }
+            //    public class ValueContainer<T> where T : struct
+            //{
+            //    public T Value { get; set; }
 
-        //    public ValueContainer(T value)
+            //    public ValueContainer(T value)
+            //    {
+            //        Value = value;
+            //    }
+            //}
+            #endregion
+            #region Q8
+            //The class constraint restricts a generic type parameter so it can only accept reference types.
+        //    public class Repository<T> where T : class
+        //{
+        //    public T Entity { get; set; }
+
+        //    public void Save(T entity)
         //    {
-        //        Value = value;
+        //        Entity = entity;
         //    }
         //}
-        #endregion
-        #region Q8
-
         #endregion
         #region Q9
 
