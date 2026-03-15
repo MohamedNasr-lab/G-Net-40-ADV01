@@ -125,41 +125,49 @@ namespace t
             //}
             #endregion
             #region Q11
+            //We specify a base class,
+            //so only that class or its child classes (derived classes) can be used as the generic type.
+        //    public class AnimalHandler<T> where T : Animal
+        //{
+        //    public void Feed(T animal)
+        //    {
+        //        animal.Eat();
+        //    }
+        //}
+        #endregion
+        #region Q12
 
-            #endregion
-            #region Q12
+        #endregion
+        #region Q13
 
-            #endregion
-            #region Q13
+        #endregion
+        #region Q14
 
-            #endregion
-            #region Q14
+        #endregion
+        #region Q15
 
-            #endregion
-            #region Q15
+        #endregion
+        #region Q16
 
-            #endregion
-            #region Q16
+        #endregion
+        #region Q17
 
-            #endregion
-            #region Q17
+        #endregion
+        #region Q18
 
-            #endregion
-            #region Q18
+        #endregion
+        #region Q19
 
-            #endregion
-            #region Q19
+        #endregion
+        #region Q20
 
-            #endregion
-            #region Q20
+        #endregion
+        #region Q21
 
-            #endregion
-            #region Q21
+        #endregion
+        #region Q22
 
-            #endregion
-            #region Q22
-
-            #endregion
-        }
+        #endregion
+    }
     }
 }
