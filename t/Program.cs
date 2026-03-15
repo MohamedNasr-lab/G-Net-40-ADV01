@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -66,56 +67,63 @@ namespace t
             //}
             #endregion
             #region Q6
+            //A generic interface is an interface that uses type parameters so it can work with different data types.
+        //    public interface IRepository<T>
+        //{
+        //    void Add(T entity);
+        //    T GetById(int id);
+        //    IEnumerable<T> GetAll();
+        //    void Remove(T entity);
+        //}
+        #endregion
+        #region Q7
 
-            #endregion
-            #region Q7
+        #endregion
+        #region Q8
 
-            #endregion
-            #region Q8
+        #endregion
+        #region Q9
 
-            #endregion
-            #region Q9
+        #endregion
+        #region Q10
 
-            #endregion
-            #region Q10
+        #endregion
+        #region Q11
 
-            #endregion
-            #region Q11
+        #endregion
+        #region Q12
 
-            #endregion
-            #region Q12
+        #endregion
+        #region Q13
 
-            #endregion
-            #region Q13
+        #endregion
+        #region Q14
 
-            #endregion
-            #region Q14
+        #endregion
+        #region Q15
 
-            #endregion
-            #region Q15
+        #endregion
+        #region Q16
 
-            #endregion
-            #region Q16
+        #endregion
+        #region Q17
 
-            #endregion
-            #region Q17
+        #endregion
+        #region Q18
 
-            #endregion
-            #region Q18
+        #endregion
+        #region Q19
 
-            #endregion
-            #region Q19
+        #endregion
+        #region Q20
 
-            #endregion
-            #region Q20
+        #endregion
+        #region Q21
 
-            #endregion
-            #region Q21
+        #endregion
+        #region Q22
 
-            #endregion
-            #region Q22
-
-            #endregion
-        }
+        #endregion
+    }
     }
 }
