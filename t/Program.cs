@@ -9,8 +9,87 @@ namespace t
     internal class Program
     {
         static void Main(string[] args)
-        { 
+        {
+            #region Q1
+            //A generic class is a class that uses type parameters to allow it to work with different data types.
+            //Generics are used to achieve code reusability, type safety, and better performance by avoiding casting and boxing/unboxing.
+            #endregion
+            #region Q2
+        //    public class Container<T>
+        //{
+        //    private T _item;
 
-        }
+        //    public void Add(T item)
+        //    {
+        //        _item = item;
+        //    }
+
+        //    public T Get()
+        //    {
+        //        return _item;
+        //    }
+        //}
+        #endregion
+        #region Q3
+
+        #endregion
+        #region Q4
+
+        #endregion
+        #region Q5
+
+        #endregion
+        #region Q6
+
+        #endregion
+        #region Q7
+
+        #endregion
+        #region Q8
+
+        #endregion
+        #region Q9
+
+        #endregion
+        #region Q10
+
+        #endregion
+        #region Q11
+
+        #endregion
+        #region Q12
+
+        #endregion
+        #region Q13
+
+        #endregion
+        #region Q14
+
+        #endregion
+        #region Q15
+
+        #endregion
+        #region Q16
+
+        #endregion
+        #region Q17
+
+        #endregion
+        #region Q18
+
+        #endregion
+        #region Q19
+
+        #endregion
+        #region Q20
+
+        #endregion
+        #region Q21
+
+        #endregion
+        #region Q22
+
+        #endregion
+    }
     }
 }
