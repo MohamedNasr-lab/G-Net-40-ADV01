@@ -176,26 +176,27 @@ namespace t
             #endregion
             #region Q16
             //Contravariance allows using a base type instead of a derived type in generic interfaces or delegates.
-           // The in keyword enables contravariance and allows the type parameter to be used only as input parameters
-        #endregion
+            // The in keyword enables contravariance and allows the type parameter to be used only as input parameters
+            #endregion
             #region Q17
-
+            //Covariance (out) allows using a derived type instead of a base type and is used for return values.
+            //Contravariance(in) allows using a base type instead of a derived type and is used for method parameters.
             #endregion
-            #region Q18
+                #region Q18
 
-            #endregion
-            #region Q19
+                #endregion
+                #region Q19
 
-            #endregion
-            #region Q20
+                #endregion
+                #region Q20
 
-            #endregion
-            #region Q21
+                #endregion
+                #region Q21
 
-            #endregion
-            #region Q22
+                #endregion
+                #region Q22
 
-            #endregion
+                #endregion
     }
     }
 }
