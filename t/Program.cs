@@ -148,34 +148,52 @@ namespace t
             #region Q13
             //The default keyword returns the default value of a type.
             //It returns null for reference types and zero - equivalent values for value types.
+            #endregion
+            #region Q14
+        //public class SafeList<T>
+        //{
+        //    private List<T> _items = new List<T>();
+
+        //    public void Add(T item)
+        //    {
+        //        _items.Add(item);
+        //    }
+
+        //    public T Get(int index)
+        //    {
+        //        if (index >= 0 && index < _items.Count)
+        //        {
+        //            return _items[index];
+        //        }
+
+        //        return default(T);
+        //    }
+        //}
         #endregion
-                    #region Q14
+        #region Q15
 
-                    #endregion
-                    #region Q15
+        #endregion
+        #region Q16
 
-                    #endregion
-                    #region Q16
+        #endregion
+        #region Q17
 
-                    #endregion
-                    #region Q17
+        #endregion
+        #region Q18
 
-                    #endregion
-                    #region Q18
+        #endregion
+        #region Q19
 
-                    #endregion
-                    #region Q19
+        #endregion
+        #region Q20
 
-                    #endregion
-                    #region Q20
+        #endregion
+        #region Q21
 
-                    #endregion
-                    #region Q21
+        #endregion
+        #region Q22
 
-                    #endregion
-                    #region Q22
-
-                    #endregion
+        #endregion
     }
     }
 }
