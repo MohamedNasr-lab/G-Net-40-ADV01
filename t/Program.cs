@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -90,18 +91,28 @@ namespace t
             #endregion
             #region Q8
             //The class constraint restricts a generic type parameter so it can only accept reference types.
-        //    public class Repository<T> where T : class
-        //{
-        //    public T Entity { get; set; }
+            //    public class Repository<T> where T : class
+            //{
+            //    public T Entity { get; set; }
 
-        //    public void Save(T entity)
+            //    public void Save(T entity)
+            //    {
+            //        Entity = entity;
+            //    }
+            //}
+            #endregion
+            #region Q9
+            //The new() constraint restricts a generic type parameter 
+            // so the type must have a public parameterless constructor,
+            // allowing the generic code to create objects using new T().
+            
+        //    public class Factory<T> where T : new()
+        //{
+        //    public T Create()
         //    {
-        //        Entity = entity;
+        //        return new T();
         //    }
         //}
-        #endregion
-        #region Q9
-
         #endregion
         #region Q10
 
