@@ -105,54 +105,61 @@ namespace t
             //The new() constraint restricts a generic type parameter 
             // so the type must have a public parameterless constructor,
             // allowing the generic code to create objects using new T().
-            
-        //    public class Factory<T> where T : new()
-        //{
-        //    public T Create()
-        //    {
-        //        return new T();
-        //    }
-        //}
-        #endregion
-        #region Q10
 
-        #endregion
-        #region Q11
+            //    public class Factory<T> where T : new()
+            //{
+            //    public T Create()
+            //    {
+            //        return new T();
+            //    }
+            //}
+            #endregion
+            #region Q10
+            //It restricts the generic type so that it must implement a specific interface.
+            //public class Printer<T> where T : IPrintable
+            //{
+            //    public void PrintItem(T item)
+            //    {
+            //        item.Print();
+            //    }
+            //}
+            #endregion
+            #region Q11
 
-        #endregion
-        #region Q12
+            #endregion
+            #region Q12
 
-        #endregion
-        #region Q13
+            #endregion
+            #region Q13
 
-        #endregion
-        #region Q14
+            #endregion
+            #region Q14
 
-        #endregion
-        #region Q15
+            #endregion
+            #region Q15
 
-        #endregion
-        #region Q16
+            #endregion
+            #region Q16
 
-        #endregion
-        #region Q17
+            #endregion
+            #region Q17
 
-        #endregion
-        #region Q18
+            #endregion
+            #region Q18
 
-        #endregion
-        #region Q19
+            #endregion
+            #region Q19
 
-        #endregion
-        #region Q20
+            #endregion
+            #region Q20
 
-        #endregion
-        #region Q21
+            #endregion
+            #region Q21
 
-        #endregion
-        #region Q22
+            #endregion
+            #region Q22
 
-        #endregion
-    }
+            #endregion
+        }
     }
 }
