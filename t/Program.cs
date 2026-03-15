@@ -182,21 +182,17 @@ namespace t
             //Covariance (out) allows using a derived type instead of a base type and is used for return values.
             //Contravariance(in) allows using a base type instead of a derived type and is used for method parameters.
             #endregion
-                #region Q18
+            #region Q18
+            //Each closed generic type has its own copy of static fields.
+            #endregion
+            #region Q19
 
-                #endregion
-                #region Q19
+            #endregion
+            #region Q20
 
-                #endregion
-                #region Q20
+            #endregion
 
-                #endregion
-                #region Q21
 
-                #endregion
-                #region Q22
-
-                #endregion
-    }
+        }
     }
 }
