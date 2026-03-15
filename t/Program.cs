@@ -137,44 +137,45 @@ namespace t
             #endregion
             #region Q12
             //You apply multiple constraints by writing them after where T : and separating them with commas ,.
-        //    public class Example<T> where T : class, IDisposable, new()
-        //{
-        //    public T Create()
-        //    {
-        //        return new T();
-        //    }
-        //}
+            //    public class Example<T> where T : class, IDisposable, new()
+            //{
+            //    public T Create()
+            //    {
+            //        return new T();
+            //    }
+            //}
+            #endregion
+            #region Q13
+            //The default keyword returns the default value of a type.
+            //It returns null for reference types and zero - equivalent values for value types.
         #endregion
-        #region Q13
+                    #region Q14
 
-        #endregion
-        #region Q14
+                    #endregion
+                    #region Q15
 
-        #endregion
-        #region Q15
+                    #endregion
+                    #region Q16
 
-        #endregion
-        #region Q16
+                    #endregion
+                    #region Q17
 
-        #endregion
-        #region Q17
+                    #endregion
+                    #region Q18
 
-        #endregion
-        #region Q18
+                    #endregion
+                    #region Q19
 
-        #endregion
-        #region Q19
+                    #endregion
+                    #region Q20
 
-        #endregion
-        #region Q20
+                    #endregion
+                    #region Q21
 
-        #endregion
-        #region Q21
+                    #endregion
+                    #region Q22
 
-        #endregion
-        #region Q22
-
-        #endregion
+                    #endregion
     }
     }
 }
