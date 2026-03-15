@@ -68,16 +68,25 @@ namespace t
             #endregion
             #region Q6
             //A generic interface is an interface that uses type parameters so it can work with different data types.
-        //    public interface IRepository<T>
+            //    public interface IRepository<T>
+            //{
+            //    void Add(T entity);
+            //    T GetById(int id);
+            //    IEnumerable<T> GetAll();
+            //    void Remove(T entity);
+            //}
+            #endregion
+            #region Q7
+            //The struct constraint restricts a generic type parameter so it can only accept value types(structs).
+        //    public class ValueContainer<T> where T : struct
         //{
-        //    void Add(T entity);
-        //    T GetById(int id);
-        //    IEnumerable<T> GetAll();
-        //    void Remove(T entity);
-        //}
-        #endregion
-        #region Q7
+        //    public T Value { get; set; }
 
+        //    public ValueContainer(T value)
+        //    {
+        //        Value = value;
+        //    }
+        //}
         #endregion
         #region Q8
 
